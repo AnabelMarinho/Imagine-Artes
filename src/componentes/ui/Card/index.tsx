@@ -48,7 +48,7 @@ const CardGrid: React.FC = () => {
             />
             <div className="flex flex-col items-center p-4 w-full">
               <p className="text-center text-sm font-medium text-[#ec4899]">Tamanho da Tela</p>
-              <p className="text-center text-lg font-semibold">{card.tamanho}</p>
+              <p className="text-center text-lg font-semibold text-[#050100]">{card.tamanho}</p>
               <p className="text-center text-sm text-gray-700">{card.preco}</p>
             </div>
             
